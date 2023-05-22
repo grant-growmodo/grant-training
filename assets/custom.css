@@ -15,7 +15,7 @@ body {
 .top-header {
     background: linear-gradient(123.27deg, #8B96FF 4.96%, #4353FF 97.11%);
     width: 100%;
-    padding: 7px;
+    padding: 9px;
 }
 .top-header p {
     line-height: 2;
