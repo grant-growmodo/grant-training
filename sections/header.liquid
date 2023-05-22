@@ -147,11 +147,11 @@
   for block in section.blocks
     if block.type == '@app'
       assign has_app_block = true
-    endif
+    endif  
   endfor
 -%}
 <div class="top-header">
-  <p>qweqwe</p>
+  <p class="ff-dm-sans fc-white">Lorem ipsum dolor sit amet consectetur adipiscing elit sed</p>
 </div>
 <{% if section.settings.sticky_header_type != 'none' %}sticky-header data-sticky-type="{{ section.settings.sticky_header_type }}"{% else %}div{% endif %} class="header-wrapper color-{{ section.settings.color_scheme }} gradient{% if section.settings.show_line_separator %} header-wrapper--border-bottom{% endif %}">
   

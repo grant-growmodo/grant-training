@@ -2,16 +2,25 @@
 body {
     font-size: 18px;
 }
-.top-header {
-    background: linear-gradient(123.27deg, #8B96FF 4.96%, #4353FF 97.11%);
-    height: 70px;
-    width: 100%;
-}
 .ff-dm-sans {
     font-family: 'DM Sans', sans-serif;
 }
 .ff-jakarta-sans {
     font-family: 'Plus Jakarta Sans', sans-serif;
+}
+.fc-white {
+    color: #fff;
+}
+
+.top-header {
+    background: linear-gradient(123.27deg, #8B96FF 4.96%, #4353FF 97.11%);
+    width: 100%;
+    padding: 7px;
+}
+.top-header p {
+    line-height: 2;
+    margin: 0;
+    text-align: center;
 }
 
 
