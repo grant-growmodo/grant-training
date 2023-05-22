@@ -1,5 +1,17 @@
-header {
-  background-color:rebeccapurple;
-
-  
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap');
+body {
+    font-size: 18px;
 }
+.top-header {
+    background: linear-gradient(123.27deg, #8B96FF 4.96%, #4353FF 97.11%);
+    height: 70px;
+    width: 100%;
+}
+.ff-dm-sans {
+    font-family: 'DM Sans', sans-serif;
+}
+.ff-jakarta-sans {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+
