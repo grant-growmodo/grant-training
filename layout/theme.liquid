@@ -1,6 +1,6 @@
 <!doctype html>
 <html class="no-js" lang="{{ request.locale.iso_code }}">
-  <head hhhh>
+  <head>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -27,7 +27,6 @@
     {%- endunless -%}
 
     <title>
-      hey
       {{ page_title }}
       {%- if current_tags %}
         &ndash; tagged "{{ current_tags | join: ', ' }}"{% endif -%}
@@ -401,7 +400,7 @@
     {{ 'base.css' | asset_url | stylesheet_tag }}
 
     {% comment %}
-    /// Shopify custom css
+      /// Shopify custom css
     {% endcomment %}
     <link
       rel="stylesheet"
@@ -503,7 +502,7 @@
     {%- endif -%}
   </body>
   {% comment %}
-  // Shopify custom javascript 
+    // Shopify custom javascript 
   {% endcomment %}<script
     src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
     integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
