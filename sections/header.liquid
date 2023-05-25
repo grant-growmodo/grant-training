@@ -2,16 +2,16 @@
   // Burger menus
   document.addEventListener("DOMContentLoaded", function () {
     // open
-    const burger = document.getElementById(".navbar-burger");
-    const menu = document.getElementById(".navbar-menu");
+    const burger = document.getElementById("navbar-burger");
+    const menu = document.getElementById("navbar-menu");
 
     burger.addEventListener("click", function () {
       burger.classList.toggle("hidden");
     });
 
     // close
-    const close = document.querySelectorAll(".navbar-close");
-    const backdrop = document.querySelectorAll(".navbar-backdrop");
+    const close = document.getElementById("navbar-close");
+    const backdrop = document.getElementById("navbar-backdrop");
 
     close.addEventListener("click", function () {
       menu[j].classList.toggle("hidden");
