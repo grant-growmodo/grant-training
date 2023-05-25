@@ -5,7 +5,11 @@
     const burger = document.getElementById(".navbar-burger");
     const menu = document.getElementById(".navbar-menu");
 
-    burger.classList.toggle("hidden");
+        burger.addEventListener("click", function () {
+            burger.classList.toggle("hidden");
+        });
+      }
+    }
 
     // close
     const close = document.querySelectorAll(".navbar-close");
