@@ -5,15 +5,7 @@
     const burger = document.getElementById(".navbar-burger");
     const menu = document.getElementById(".navbar-menu");
 
-    if (burger.length && menu.length) {
-      for (var i = 0; i < burger.length; i++) {
-        burger[i].addEventListener("click", function () {
-          for (var j = 0; j < menu.length; j++) {
-            menu[j].classList.toggle("hidden");
-          }
-        });
-      }
-    }
+    burger.classList.toggle("hidden");
 
     // close
     const close = document.querySelectorAll(".navbar-close");
