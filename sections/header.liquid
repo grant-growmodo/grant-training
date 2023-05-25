@@ -5,35 +5,17 @@
     const burger = document.getElementById(".navbar-burger");
     const menu = document.getElementById(".navbar-menu");
 
-        burger.addEventListener("click", function () {
-            burger.classList.toggle("hidden");
-        });
-      }
-    }
+    burger.addEventListener("click", function () {
+      burger.classList.toggle("hidden");
+    });
 
     // close
     const close = document.querySelectorAll(".navbar-close");
     const backdrop = document.querySelectorAll(".navbar-backdrop");
 
-    if (close.length) {
-      for (var i = 0; i < close.length; i++) {
-        close[i].addEventListener("click", function () {
-          for (var j = 0; j < menu.length; j++) {
-            menu[j].classList.toggle("hidden");
-          }
-        });
-      }
-    }
-
-    if (backdrop.length) {
-      for (var i = 0; i < backdrop.length; i++) {
-        backdrop[i].addEventListener("click", function () {
-          for (var j = 0; j < menu.length; j++) {
-            menu[j].classList.toggle("hidden");
-          }
-        });
-      }
-    }
+    close.addEventListener("click", function () {
+      menu[j].classList.toggle("hidden");
+    });
   });
 </script>
 
@@ -113,7 +95,7 @@
               ></path>
             </svg>
           </a>
-          <button class="navbar-close">
+          <button id="navbar-close">
             <svg
               class="h-6 w-6 cursor-pointer text-gray-400 hover:text-gray-500"
               xmlns="http://www.w3.org/2000/svg"
